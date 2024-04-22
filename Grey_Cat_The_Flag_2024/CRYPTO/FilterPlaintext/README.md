@@ -26,10 +26,10 @@
 ## [2] SOLVE
 - Phép XOR có tính chất `x ^ y = z` <=> `x ^ z = y` <=> `y ^ z = x` và `x ^ x = 0` <=> `x ^ 0 = x`
 - Lại có nhận xét như sau:
-  > * Các block nhập vào sẽ sử dụng các block của `Encrypted secret` theo thứ tự lần lượt
-  > * Vẫn sử dụng cách đặt tên biến như trên
-  > * Gấp đôi block thứ 2 của `Encrypted secret` còn các block khác giữ nguyên
-  > * Ta có công thức XOR sau:
+  * Các block nhập vào sẽ sử dụng các block của `Encrypted secret` theo thứ tự lần lượt
+  * Vẫn sử dụng cách đặt tên biến như trên
+  * Gấp đôi block thứ 2 của `Encrypted secret` còn các block khác giữ nguyên
+  * Ta có công thức XOR sau:
   >   * c[1] = a[2] ^ b[1]
   >   * b[2] = a[1] ^ c[1] 
   >   * c[2] = a[4] ^ b[2]
@@ -41,7 +41,7 @@
   >   * c[4] = a[6] ^ b[2]
   >   * b[5] = a[5] ^ c[4]
   >
-  > * Tương tự ta sẽ gấp đôi block thứ 3 của `Encrypted secret` còn các block khác giữ nguyên
+  * Tương tự ta sẽ gấp đôi block thứ 3 của `Encrypted secret` còn các block khác giữ nguyên
 
 - ***Nhận xét***:
   * c[1] và c[2] sau khi XOR thấy trùng với `secret` nên bị loại bỏ, decrypted block được in ra sẽ bắt đầu từ `c[3]`
