@@ -50,4 +50,4 @@ cipher = AES.new(key = secret_key, iv = secret_iv, mode = AES.MODE_CBC)
 flag = cipher.decrypt(flag_enc)
 print("flag:", f'{flag}')
 
-# grey{pcbc_d3crypt10n_0r4cl3_3p1c_f41l}
+# flag: grey{pcbc_d3crypt10n_0r4cl3_3p1c_f41l}
