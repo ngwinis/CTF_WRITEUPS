@@ -57,4 +57,4 @@
   * Để giải quyết vấn đề này, ta chỉ cần tạo ra 1 block bất kỳ có độ dài tương đương các block khác chèn thêm vào input và gấp đôi block đó lên sẽ tìm được `c[3]`
  
 ## [3] PAYLOAD
-  [Payload]()
+  [Payload](distribution/decrypt.py)
