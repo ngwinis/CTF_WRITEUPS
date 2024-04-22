@@ -61,5 +61,4 @@
   ![image](https://github.com/ngwinis/CTF_WRITEUPS/assets/127127056/32e2de6f-8d18-4ff4-9a72-07576509870e)
 
 ## [3] PAYLOAD
-  - Để thuận tiện hơn trong việc xử lý các dữ liệu gửi và nhận từ server, có thể sử dụng Payload như sau:
-  [Payload](distribution/decrypt.py)
+  - Để thuận tiện hơn trong việc xử lý các dữ liệu gửi và nhận từ server, có thể sử dụng [Payload](distribution/decrypt.py)
