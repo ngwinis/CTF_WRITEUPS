@@ -11,17 +11,17 @@
   ![image](https://github.com/ngwinis/CTF_WRITEUPS/assets/127127056/81eabe16-7722-4559-b62b-2b91b0d31453)
 - Nếu nhập đúng `Encrypted secret` mà server trả về thì sẽ bị câu lệnh rẽ nhánh if trong vòng for loại bỏ toàn bộ, cuối cùng, server sẽ không in ra gì cả
 - Nhận xét thấy vòng lặp for có thể mô tả lại như sau:
-  > * Giả sử `Encrypted secret` chỉ có 3 block, và các biến "res" là `c[]`, "tmp" là `b[]` còn "block" là `a[i*2+1]` và "cipher.decrypt(block)" là `a[i*2+2]`
-  > * Ta có công thức XOR sau:
-  >   * c[1] = a[2] ^ b[1]
-  >   * b[2] = a[1] ^ c[1]
-  >   * c[2] = a[4] ^ b[2]
-  >   * b[3] = a[3] ^ c[2]
-  >   * c[3] = a[6] ^ b[3]
-  >   * b[4] = a[5] ^ c[3]
-  > * Nếu `c[1]`, `c[2]` và `c[3]` không có trong `secret` thì server sẽ trả về `c[1]c[2]c[3]`
-  > * Như vậy, những biến có thể biết được giá trị là `c[]` và `a[i*2+1]` còn các giá trị `b[]` ngay từ đầu là random và `a[i*2+2]` là các decrypted block không có key nên không thể biết được giá trị
-  > * Tuy nhiên, nếu input là `a[i*2+1]` thì ngay cả các giá trị `c[]` chúng ta cũng không thể biết được do chúng không được in ra
+  * Giả sử `Encrypted secret` chỉ có 3 block, và các biến "res" là `c[]`, "tmp" là `b[]` còn "block" là `a[i*2+1]` và "cipher.decrypt(block)" là `a[i*2+2]`
+  * Ta có công thức XOR sau:
+    > * c[1] = a[2] ^ b[1]
+    > * b[2] = a[1] ^ c[1]
+    > * c[2] = a[4] ^ b[2]
+    > * b[3] = a[3] ^ c[2]
+    > * c[3] = a[6] ^ b[3]
+    > * b[4] = a[5] ^ c[3]
+  * Nếu `c[1]`, `c[2]` và `c[3]` không có trong `secret` thì server sẽ trả về `c[1]c[2]c[3]`
+  * Như vậy, những biến có thể biết được giá trị là `c[]` và `a[i*2+1]` còn các giá trị `b[]` ngay từ đầu là random và `a[i*2+2]` là các decrypted block không có key nên không thể biết được giá trị
+  * Tuy nhiên, nếu input là `a[i*2+1]` thì ngay cả các giá trị `c[]` chúng ta cũng không thể biết được do chúng không được in ra
 - Như vậy, mục tiêu cần đạt được là vừa phải biết được các giá trị `c[]` vừa phải tìm được các giá trị `b[]`
 ## [2] SOLVE
 - Phép XOR có tính chất `x ^ y = z` <=> `x ^ z = y` <=> `y ^ z = x` và `x ^ x = 0` <=> `x ^ 0 = x`
@@ -30,17 +30,14 @@
   * Vẫn sử dụng cách đặt tên biến như trên
   * Gấp đôi block thứ 2 của `Encrypted secret` còn các block khác giữ nguyên
   * Ta có công thức XOR sau:
-  >   * c[1] = a[2] ^ b[1]
-  >   * b[2] = a[1] ^ c[1] 
-  >   * c[2] = a[4] ^ b[2]
-  >   * b[3] = a[3] ^ c[2]
-  >  
-  >   *
-  >   * c[3] = a[4] ^ b[3] = a[4] ^ a[3] ^ c[2] = a[4] ^ a[3] ^ a[4] ^ b[2] = a[3] ^ b[2]
-  >   * b[4] = a[3] ^ c[3] `= b[2]`
-  >   * c[4] = a[6] ^ b[2]
-  >   * b[5] = a[5] ^ c[4]
-  >
+    >* c[1] = a[2] ^ b[1]
+    >* b[2] = a[1] ^ c[1] 
+    >* c[2] = a[4] ^ b[2]
+    >* b[3] = a[3] ^ c[2]
+    >* c[3] = a[4] ^ b[3] = a[4] ^ a[3] ^ c[2] = a[4] ^ a[3] ^ a[4] ^ b[2] = a[3] ^ b[2]
+    >* b[4] = a[3] ^ c[3] `= b[2]`
+    >* c[4] = a[6] ^ b[2]
+    >* b[5] = a[5] ^ c[4]
   * Tương tự ta sẽ gấp đôi block thứ 3 của `Encrypted secret` còn các block khác giữ nguyên
 
 - ***Nhận xét***:
