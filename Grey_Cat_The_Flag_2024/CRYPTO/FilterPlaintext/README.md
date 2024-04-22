@@ -55,6 +55,9 @@
 - ***Rút ra kết luận***: Để tìm được các `c[]` chúng ta chỉ cần gấp đôi block phía sau để tìm `b[]` và XOR lại
   * Tuy nhiên, ta chỉ giả sử có 3 block duy nhất, nên block cuối cùng được gấp đôi là block thứ 3, tức là chỉ tìm được `c[1]` và `c[2]` thiếu `c[3]` để có thể tìm được `secret_enc`
   * Để giải quyết vấn đề này, ta chỉ cần tạo ra 1 block bất kỳ có độ dài tương đương các block khác chèn thêm vào input và gấp đôi block đó lên sẽ tìm được `c[3]`
- 
+
+- Flag: grey{pcbc_d3crypt10n_0r4cl3_3p1c_f41l}
+  ![image](https://github.com/ngwinis/CTF_WRITEUPS/assets/127127056/32e2de6f-8d18-4ff4-9a72-07576509870e)
+
 ## [3] PAYLOAD
   [Payload](distribution/decrypt.py)
