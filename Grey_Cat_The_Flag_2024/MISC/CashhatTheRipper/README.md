@@ -14,7 +14,7 @@
 - Tool được sử dụng: `fcrackzip`
 - File password được sử dụng: `rockyou.txt`
 - Command: `fcrackzip -D -p rockyou.txt -u challenge.txt`
-- Pass giải nén: `123mango`
+- Pass giải nén: `123mango`<br>
   ![image](https://github.com/ngwinis/CTF_WRITEUPS/assets/127127056/3c4e571c-9da5-4100-aa52-b55bb78d69da)
 
 - Flag: `flag{W34k_P4ssw0rds_St4Nd_n0_Ch4nc3}`
