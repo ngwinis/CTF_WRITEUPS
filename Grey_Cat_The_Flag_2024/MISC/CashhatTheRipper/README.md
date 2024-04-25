@@ -2,7 +2,7 @@
 
 ## [1] TỔNG QUAN
 
-- Đề gửi 1 file zip, sau khi giải nén lại thấy 1 file zip nữa có password protected
+- Đề gửi 1 file zip, sau khi giải nén lại thấy 1 file zip nữa có password protected<br>
   ![image](https://github.com/ngwinis/CTF_WRITEUPS/assets/127127056/eda7491c-3ace-48bb-98e2-df64e3479f01)
 
 - Để tìm được flag ở bài này, chúng ta cần phải unzip được file challenge.zip vì có thể trong file zip này có chứa flag
