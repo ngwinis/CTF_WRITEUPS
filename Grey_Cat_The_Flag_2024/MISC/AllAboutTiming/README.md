@@ -23,4 +23,4 @@
 - Flag: `grey{t1m3_i5_a_s0c1al_coNstRucT}`
 ## [4] PAYLOAD
 
-Để thuận tiện hơn trong việc xử lý các dữ liệu gửi và nhận từ server, có thể sử dụng [Payload](distribution/payload.py)
+- Để thuận tiện hơn trong việc xử lý các dữ liệu gửi và nhận từ server, có thể sử dụng [Payload](distribution/payload.py)
