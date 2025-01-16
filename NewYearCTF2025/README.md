@@ -36,6 +36,7 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9d in position 1: invalid 
 
 ### **[Symbol]**
 - The description tells us that the symbol is used to be seen in every Belarusian home so that I searched it with Google Lens and found that its name is Sun
+
 ![alt text](images/6.png)
 ![alt text](images/7.png)
 > ***Flag:** grodno{Sun}*
