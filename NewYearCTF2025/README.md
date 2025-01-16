@@ -2,6 +2,8 @@
 ## **[1] - BEGINNER**
 ### **[Crash Me]**
 
+Challenge: [crashme.c](Beginner/Crashme/crashme.c)
+
 This challenge requires player to input a string of at least 64 characters and we'll get the flag:
 ![alt text](images/5.png)
 ![alt text](images/4.png)
@@ -9,6 +11,7 @@ This challenge requires player to input a string of at least 64 characters and w
 > ***Flag:** grodno{7cae00S3gfaults_4re_a_gr3at_fr1end_0f_h4ck3r58ffc57}*
 
 ### **[RSA for 9+]**
+
 - This is a crypto challenge using RSA algorithm. There are a random number of rounds for each connection and we have to answer each question in at most 5 seconds or we'll get "TimedOut...".
 
 - First, I connect to server and get all 2 exponent `e` and `d`, the modulo `n` and the `ciphertext` also.
@@ -29,8 +32,8 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9d in position 1: invalid 
 
 - I tried to reverse all the bytes of secret ciphertext and decrypted it by calculating `pow(c,d,n)` and I got the text which can be read.
 
-- Now, we can just use pwntools to solve the challenge: 
-[solve.py](Beginner/RSAfor9+/solve.py)
+- Now, we can just use pwntools to solve the challenge: [solve.py](Beginner/RSAfor9+/solve.py)
+
 ![alt text](images/3.png)
 > ***Flag:** grodno{9cced0Take_y0urself_the_b1ggest_candy3fcc4e}*
 
@@ -42,6 +45,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9d in position 1: invalid 
 > ***Flag:** grodno{Sun}*
 ## **[2] CODE ANALYSIS**
 ### **[From 8 to 16]**
+
+Challenge: [From8to16](Codeanalysis/From8to16/)
+
 - We were given a code used to encrypt the flag:
 ```python
 def rev001(flag):
@@ -68,10 +74,14 @@ print(f'flag: {s}')
 ## **[3] CRYPTO**
 ### **[The hacker sent]**
 We were given a string `¥☐ü_ç☐_☐∏_∲Λ┏_Λ_₪Λ¥_Λ⊥_↻┏¥þ⊥☐`. Use [dcode.fr](dcode.fr) to identify the cipher and we can see that it's [Leet Speak 1337](https://www.dcode.fr/leet-speak-1337). Decrypt it and we get the plaintext:
+
 ![alt text](images/8.png)
 
 > ***Flag:** grodno{YOU_GO_ON_FAR_A_WAY_AT_CRYPTO}*
 ### **[Speeding Up RSA]**
+
+Challenge: [SpeedingupRSA](Crypto/SpeedingupRSA/)
+
 - The given modulo `n` has 1024 bits, `p` and `q` are random where `q` is one of the next primes of `p`. So we can take square root of `n` to find `p` and next, we can divide `n` by `p` to get `q`:
 - **Solve:** [solve.py](Crypto/SpeedingupRSA/solve.py)
 
