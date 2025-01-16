@@ -3,7 +3,7 @@
 ### **[Crash Me]**
 
 This challenge requires player to input a string of at least 64 characters and we'll get the flag:
-![alt text](image.png)
+![alt text](images/5.png)
 ![alt text](images/4.png)
 
 > ***Flag:** grodno{7cae00S3gfaults_4re_a_gr3at_fr1end_0f_h4ck3r58ffc57}*
