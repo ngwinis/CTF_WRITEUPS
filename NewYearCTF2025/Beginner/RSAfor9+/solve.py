@@ -11,17 +11,17 @@ i = int(i)
 cnt = x[x.find('Раунд ')+len('Раунд ')+2:x.find('Раунд ')+len('Раунд ')+4]
 cnt = int(cnt)
 while i <= cnt:
-    e = x[x.find('e:')+3:x.find('d:')-1]
-    d = x[x.find('d:')+3:x.find('n:')-1]
-    n = x[x.find('n:')+3:x.find('secret ciphertext (b64):')-1]
+    e = x[x.find('e:')+5:x.find('d:')-1]
+    d = x[x.find('d:')+5:x.find('n:')-1]
+    n = x[x.find('n:')+5:x.find('secret ciphertext (b64):')-1]
     c = x[x.find('secret ciphertext (b64): ')+len('secret ciphertext (b64): '):x.find('Plaintext is (b64):')-1]
 
     e = 0x10001
     d = int(d, 16)
     n = int(n, 16)
-    c = bytes_to_long(b64decode(c.encode()))
+    c = bytes_to_long(b64decode(c.encode())[::-1])
 
-    message = b64encode(long_to_bytes(pow(c, d, n)))
+    message = b64encode(long_to_bytes(pow(c, d, n))[::-1])
     s.sendline(message)
     print(message)
     i += 1
