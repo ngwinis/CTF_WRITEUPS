@@ -1,9 +1,0 @@
-Sums
-356
-Connor Chang
-
-Find the sum of nums[i] for i in [l, r] (if there are any issues with input/output format, plz open a ticket)
-
-Attachments
-server.py
-Instance Info

@@ -1,7 +1,0 @@
-Mod
-380
-Just a simple modulo challenge
-
-Attachments
-chall.py
-Instance Info
