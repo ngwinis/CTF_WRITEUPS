@@ -1,0 +1,7 @@
+More Divisors
+470
+Connor Chang
+
+find length of the longest subsequence with gcd > 1 :)
+
+Instance Info

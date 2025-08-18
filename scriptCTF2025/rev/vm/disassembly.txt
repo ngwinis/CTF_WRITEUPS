@@ -1,0 +1,495 @@
+0000:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+0006:   | 60 01 03 00 00 00      | mov_char r1, flag[3]
+000c:   | 30 00 01               | xor r0, r1
+000f:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+0015:   | 20 00 02               | add r0, r2
+0018:   | 10 03 79 00 00 00      | mov_imm r3, 0x79
+001e:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0025:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+002b:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0031:   | 20 00 01               | add r0, r1
+0034:   | 60 02 13 00 00 00      | mov_char r2, flag[19]
+003a:   | 30 00 02               | xor r0, r2
+003d:   | 10 03 90 00 00 00      | mov_imm r3, 0x90
+0043:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+004a:   | 60 00 0d 00 00 00      | mov_char r0, flag[13]
+0050:   | 60 01 0e 00 00 00      | mov_char r1, flag[14]
+0056:   | 20 00 01               | add r0, r1
+0059:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+005f:   | 20 00 02               | add r0, r2
+0062:   | 10 03 df 00 00 00      | mov_imm r3, 0xdf
+0068:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+006f:   | 60 00 0e 00 00 00      | mov_char r0, flag[14]
+0075:   | 60 01 10 00 00 00      | mov_char r1, flag[16]
+007b:   | 20 00 01               | add r0, r1
+007e:   | 60 02 12 00 00 00      | mov_char r2, flag[18]
+0084:   | 30 00 02               | xor r0, r2
+0087:   | 10 03 f9 00 00 00      | mov_imm r3, 0xf9
+008d:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0094:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+009a:   | 60 01 0e 00 00 00      | mov_char r1, flag[14]
+00a0:   | 20 00 01               | add r0, r1
+00a3:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+00a9:   | 20 00 02               | add r0, r2
+00ac:   | 10 03 1d 01 00 00      | mov_imm r3, 0x11d
+00b2:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+00b9:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+00bf:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+00c5:   | 20 00 01               | add r0, r1
+00c8:   | 60 02 0d 00 00 00      | mov_char r2, flag[13]
+00ce:   | 30 00 02               | xor r0, r2
+00d1:   | 10 03 97 00 00 00      | mov_imm r3, 0x97
+00d7:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+00de:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+00e4:   | 60 01 06 00 00 00      | mov_char r1, flag[6]
+00ea:   | 30 00 01               | xor r0, r1
+00ed:   | 60 02 09 00 00 00      | mov_char r2, flag[9]
+00f3:   | 20 00 02               | add r0, r2
+00f6:   | 10 03 49 00 00 00      | mov_imm r3, 0x49
+00fc:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0103:   | 60 00 10 00 00 00      | mov_char r0, flag[16]
+0109:   | 60 01 15 00 00 00      | mov_char r1, flag[21]
+010f:   | 30 00 01               | xor r0, r1
+0112:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+0118:   | 20 00 02               | add r0, r2
+011b:   | 10 03 e2 00 00 00      | mov_imm r3, 0xe2
+0121:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0128:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+012e:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+0134:   | 30 00 01               | xor r0, r1
+0137:   | 60 02 13 00 00 00      | mov_char r2, flag[19]
+013d:   | 30 00 02               | xor r0, r2
+0140:   | 10 03 5f 00 00 00      | mov_imm r3, 0x5f
+0146:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+014d:   | 60 00 08 00 00 00      | mov_char r0, flag[8]
+0153:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0159:   | 30 00 01               | xor r0, r1
+015c:   | 60 02 13 00 00 00      | mov_char r2, flag[19]
+0162:   | 30 00 02               | xor r0, r2
+0165:   | 10 03 70 00 00 00      | mov_imm r3, 0x70
+016b:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0172:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+0178:   | 60 01 03 00 00 00      | mov_char r1, flag[3]
+017e:   | 30 00 01               | xor r0, r1
+0181:   | 60 02 06 00 00 00      | mov_char r2, flag[6]
+0187:   | 30 00 02               | xor r0, r2
+018a:   | 10 03 27 00 00 00      | mov_imm r3, 0x27
+0190:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0197:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+019d:   | 60 01 07 00 00 00      | mov_char r1, flag[7]
+01a3:   | 30 00 01               | xor r0, r1
+01a6:   | 60 02 08 00 00 00      | mov_char r2, flag[8]
+01ac:   | 20 00 02               | add r0, r2
+01af:   | 10 03 77 00 00 00      | mov_imm r3, 0x77
+01b5:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+01bc:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+01c2:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+01c8:   | 20 00 01               | add r0, r1
+01cb:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+01d1:   | 30 00 02               | xor r0, r2
+01d4:   | 10 03 9b 00 00 00      | mov_imm r3, 0x9b
+01da:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+01e1:   | 60 00 08 00 00 00      | mov_char r0, flag[8]
+01e7:   | 60 01 11 00 00 00      | mov_char r1, flag[17]
+01ed:   | 20 00 01               | add r0, r1
+01f0:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+01f6:   | 20 00 02               | add r0, r2
+01f9:   | 10 03 58 01 00 00      | mov_imm r3, 0x158
+01ff:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0206:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+020c:   | 60 01 02 00 00 00      | mov_char r1, flag[2]
+0212:   | 30 00 01               | xor r0, r1
+0215:   | 60 02 08 00 00 00      | mov_char r2, flag[8]
+021b:   | 30 00 02               | xor r0, r2
+021e:   | 10 03 75 00 00 00      | mov_imm r3, 0x75
+0224:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+022b:   | 60 00 09 00 00 00      | mov_char r0, flag[9]
+0231:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+0237:   | 20 00 01               | add r0, r1
+023a:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+0240:   | 30 00 02               | xor r0, r2
+0243:   | 10 03 14 00 00 00      | mov_imm r3, 0x14
+0249:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0250:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+0256:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+025c:   | 20 00 01               | add r0, r1
+025f:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+0265:   | 20 00 02               | add r0, r2
+0268:   | 10 03 1e 01 00 00      | mov_imm r3, 0x11e
+026e:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0275:   | 60 00 06 00 00 00      | mov_char r0, flag[6]
+027b:   | 60 01 08 00 00 00      | mov_char r1, flag[8]
+0281:   | 30 00 01               | xor r0, r1
+0284:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+028a:   | 20 00 02               | add r0, r2
+028d:   | 10 03 8a 00 00 00      | mov_imm r3, 0x8a
+0293:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+029a:   | 60 00 06 00 00 00      | mov_char r0, flag[6]
+02a0:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+02a6:   | 20 00 01               | add r0, r1
+02a9:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+02af:   | 30 00 02               | xor r0, r2
+02b2:   | 10 03 e5 00 00 00      | mov_imm r3, 0xe5
+02b8:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+02bf:   | 60 00 08 00 00 00      | mov_char r0, flag[8]
+02c5:   | 60 01 0d 00 00 00      | mov_char r1, flag[13]
+02cb:   | 30 00 01               | xor r0, r1
+02ce:   | 60 02 0f 00 00 00      | mov_char r2, flag[15]
+02d4:   | 30 00 02               | xor r0, r2
+02d7:   | 10 03 3d 00 00 00      | mov_imm r3, 0x3d
+02dd:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+02e4:   | 60 00 0b 00 00 00      | mov_char r0, flag[11]
+02ea:   | 60 01 11 00 00 00      | mov_char r1, flag[17]
+02f0:   | 20 00 01               | add r0, r1
+02f3:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+02f9:   | 20 00 02               | add r0, r2
+02fc:   | 10 03 08 01 00 00      | mov_imm r3, 0x108
+0302:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0309:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+030f:   | 60 01 02 00 00 00      | mov_char r1, flag[2]
+0315:   | 20 00 01               | add r0, r1
+0318:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+031e:   | 20 00 02               | add r0, r2
+0321:   | 10 03 1a 01 00 00      | mov_imm r3, 0x11a
+0327:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+032e:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0334:   | 60 01 04 00 00 00      | mov_char r1, flag[4]
+033a:   | 20 00 01               | add r0, r1
+033d:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+0343:   | 30 00 02               | xor r0, r2
+0346:   | 10 03 d3 00 00 00      | mov_imm r3, 0xd3
+034c:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0353:   | 60 00 00 00 00 00      | mov_char r0, flag[0]
+0359:   | 60 01 06 00 00 00      | mov_char r1, flag[6]
+035f:   | 20 00 01               | add r0, r1
+0362:   | 60 02 0f 00 00 00      | mov_char r2, flag[15]
+0368:   | 20 00 02               | add r0, r2
+036b:   | 10 03 12 01 00 00      | mov_imm r3, 0x112
+0371:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0378:   | 60 00 07 00 00 00      | mov_char r0, flag[7]
+037e:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+0384:   | 20 00 01               | add r0, r1
+0387:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+038d:   | 30 00 02               | xor r0, r2
+0390:   | 10 03 de 00 00 00      | mov_imm r3, 0xde
+0396:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+039d:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+03a3:   | 60 01 04 00 00 00      | mov_char r1, flag[4]
+03a9:   | 20 00 01               | add r0, r1
+03ac:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+03b2:   | 30 00 02               | xor r0, r2
+03b5:   | 10 03 d2 00 00 00      | mov_imm r3, 0xd2
+03bb:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+03c2:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+03c8:   | 60 01 10 00 00 00      | mov_char r1, flag[16]
+03ce:   | 30 00 01               | xor r0, r1
+03d1:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+03d7:   | 30 00 02               | xor r0, r2
+03da:   | 10 03 1a 00 00 00      | mov_imm r3, 0x1a
+03e0:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+03e7:   | 60 00 0e 00 00 00      | mov_char r0, flag[14]
+03ed:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+03f3:   | 30 00 01               | xor r0, r1
+03f6:   | 60 02 12 00 00 00      | mov_char r2, flag[18]
+03fc:   | 20 00 02               | add r0, r2
+03ff:   | 10 03 b9 00 00 00      | mov_imm r3, 0xb9
+0405:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+040c:   | 60 00 0a 00 00 00      | mov_char r0, flag[10]
+0412:   | 60 01 11 00 00 00      | mov_char r1, flag[17]
+0418:   | 30 00 01               | xor r0, r1
+041b:   | 60 02 13 00 00 00      | mov_char r2, flag[19]
+0421:   | 30 00 02               | xor r0, r2
+0424:   | 10 03 5b 00 00 00      | mov_imm r3, 0x5b
+042a:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0431:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0437:   | 60 01 05 00 00 00      | mov_char r1, flag[5]
+043d:   | 30 00 01               | xor r0, r1
+0440:   | 60 02 0c 00 00 00      | mov_char r2, flag[12]
+0446:   | 30 00 02               | xor r0, r2
+0449:   | 10 03 5f 00 00 00      | mov_imm r3, 0x5f
+044f:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0456:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+045c:   | 60 01 15 00 00 00      | mov_char r1, flag[21]
+0462:   | 20 00 01               | add r0, r1
+0465:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+046b:   | 20 00 02               | add r0, r2
+046e:   | 10 03 19 01 00 00      | mov_imm r3, 0x119
+0474:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+047b:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+0481:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+0487:   | 20 00 01               | add r0, r1
+048a:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+0490:   | 30 00 02               | xor r0, r2
+0493:   | 10 03 9d 00 00 00      | mov_imm r3, 0x9d
+0499:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+04a0:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+04a6:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+04ac:   | 20 00 01               | add r0, r1
+04af:   | 60 02 10 00 00 00      | mov_char r2, flag[16]
+04b5:   | 30 00 02               | xor r0, r2
+04b8:   | 10 03 39 00 00 00      | mov_imm r3, 0x39
+04be:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+04c5:   | 60 00 07 00 00 00      | mov_char r0, flag[7]
+04cb:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+04d1:   | 30 00 01               | xor r0, r1
+04d4:   | 60 02 13 00 00 00      | mov_char r2, flag[19]
+04da:   | 30 00 02               | xor r0, r2
+04dd:   | 10 03 53 00 00 00      | mov_imm r3, 0x53
+04e3:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+04ea:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+04f0:   | 60 01 05 00 00 00      | mov_char r1, flag[5]
+04f6:   | 30 00 01               | xor r0, r1
+04f9:   | 60 02 09 00 00 00      | mov_char r2, flag[9]
+04ff:   | 30 00 02               | xor r0, r2
+0502:   | 10 03 1c 00 00 00      | mov_imm r3, 0x1c
+0508:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+050f:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+0515:   | 60 01 14 00 00 00      | mov_char r1, flag[20]
+051b:   | 30 00 01               | xor r0, r1
+051e:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+0524:   | 20 00 02               | add r0, r2
+0527:   | 10 03 78 00 00 00      | mov_imm r3, 0x78
+052d:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0534:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+053a:   | 60 01 06 00 00 00      | mov_char r1, flag[6]
+0540:   | 20 00 01               | add r0, r1
+0543:   | 60 02 08 00 00 00      | mov_char r2, flag[8]
+0549:   | 30 00 02               | xor r0, r2
+054c:   | 10 03 e7 00 00 00      | mov_imm r3, 0xe7
+0552:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0559:   | 60 00 06 00 00 00      | mov_char r0, flag[6]
+055f:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0565:   | 30 00 01               | xor r0, r1
+0568:   | 60 02 12 00 00 00      | mov_char r2, flag[18]
+056e:   | 30 00 02               | xor r0, r2
+0571:   | 10 03 56 00 00 00      | mov_imm r3, 0x56
+0577:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+057e:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0584:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+058a:   | 20 00 01               | add r0, r1
+058d:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+0593:   | 30 00 02               | xor r0, r2
+0596:   | 10 03 da 00 00 00      | mov_imm r3, 0xda
+059c:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+05a3:   | 60 00 00 00 00 00      | mov_char r0, flag[0]
+05a9:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+05af:   | 30 00 01               | xor r0, r1
+05b2:   | 60 02 12 00 00 00      | mov_char r2, flag[18]
+05b8:   | 30 00 02               | xor r0, r2
+05bb:   | 10 03 07 00 00 00      | mov_imm r3, 0x7
+05c1:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+05c8:   | 60 00 09 00 00 00      | mov_char r0, flag[9]
+05ce:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+05d4:   | 20 00 01               | add r0, r1
+05d7:   | 60 02 11 00 00 00      | mov_char r2, flag[17]
+05dd:   | 30 00 02               | xor r0, r2
+05e0:   | 10 03 10 00 00 00      | mov_imm r3, 0x10
+05e6:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+05ed:   | 60 00 08 00 00 00      | mov_char r0, flag[8]
+05f3:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+05f9:   | 20 00 01               | add r0, r1
+05fc:   | 60 02 0f 00 00 00      | mov_char r2, flag[15]
+0602:   | 20 00 02               | add r0, r2
+0605:   | 10 03 1c 01 00 00      | mov_imm r3, 0x11c
+060b:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0612:   | 60 00 00 00 00 00      | mov_char r0, flag[0]
+0618:   | 60 01 10 00 00 00      | mov_char r1, flag[16]
+061e:   | 20 00 01               | add r0, r1
+0621:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+0627:   | 20 00 02               | add r0, r2
+062a:   | 10 03 c7 00 00 00      | mov_imm r3, 0xc7
+0630:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0637:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+063d:   | 60 01 05 00 00 00      | mov_char r1, flag[5]
+0643:   | 30 00 01               | xor r0, r1
+0646:   | 60 02 12 00 00 00      | mov_char r2, flag[18]
+064c:   | 20 00 02               | add r0, r2
+064f:   | 10 03 97 00 00 00      | mov_imm r3, 0x97
+0655:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+065c:   | 60 00 0a 00 00 00      | mov_char r0, flag[10]
+0662:   | 60 01 14 00 00 00      | mov_char r1, flag[20]
+0668:   | 30 00 01               | xor r0, r1
+066b:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+0671:   | 20 00 02               | add r0, r2
+0674:   | 10 03 33 00 00 00      | mov_imm r3, 0x33
+067a:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0681:   | 60 00 0b 00 00 00      | mov_char r0, flag[11]
+0687:   | 60 01 0c 00 00 00      | mov_char r1, flag[12]
+068d:   | 20 00 01               | add r0, r1
+0690:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+0696:   | 30 00 02               | xor r0, r2
+0699:   | 10 03 a7 00 00 00      | mov_imm r3, 0xa7
+069f:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+06a6:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+06ac:   | 60 01 09 00 00 00      | mov_char r1, flag[9]
+06b2:   | 30 00 01               | xor r0, r1
+06b5:   | 60 02 0c 00 00 00      | mov_char r2, flag[12]
+06bb:   | 30 00 02               | xor r0, r2
+06be:   | 10 03 70 00 00 00      | mov_imm r3, 0x70
+06c4:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+06cb:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+06d1:   | 60 01 06 00 00 00      | mov_char r1, flag[6]
+06d7:   | 20 00 01               | add r0, r1
+06da:   | 60 02 0a 00 00 00      | mov_char r2, flag[10]
+06e0:   | 30 00 02               | xor r0, r2
+06e3:   | 10 03 a4 00 00 00      | mov_imm r3, 0xa4
+06e9:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+06f0:   | 60 00 05 00 00 00      | mov_char r0, flag[5]
+06f6:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+06fc:   | 20 00 01               | add r0, r1
+06ff:   | 60 02 0f 00 00 00      | mov_char r2, flag[15]
+0705:   | 20 00 02               | add r0, r2
+0708:   | 10 03 37 01 00 00      | mov_imm r3, 0x137
+070e:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0715:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+071b:   | 60 01 09 00 00 00      | mov_char r1, flag[9]
+0721:   | 20 00 01               | add r0, r1
+0724:   | 60 02 0a 00 00 00      | mov_char r2, flag[10]
+072a:   | 20 00 02               | add r0, r2
+072d:   | 10 03 17 01 00 00      | mov_imm r3, 0x117
+0733:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+073a:   | 60 00 07 00 00 00      | mov_char r0, flag[7]
+0740:   | 60 01 08 00 00 00      | mov_char r1, flag[8]
+0746:   | 30 00 01               | xor r0, r1
+0749:   | 60 02 0a 00 00 00      | mov_char r2, flag[10]
+074f:   | 20 00 02               | add r0, r2
+0752:   | 10 03 77 00 00 00      | mov_imm r3, 0x77
+0758:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+075f:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0765:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+076b:   | 20 00 01               | add r0, r1
+076e:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+0774:   | 20 00 02               | add r0, r2
+0777:   | 10 03 c5 00 00 00      | mov_imm r3, 0xc5
+077d:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0784:   | 60 00 0b 00 00 00      | mov_char r0, flag[11]
+078a:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+0790:   | 30 00 01               | xor r0, r1
+0793:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+0799:   | 30 00 02               | xor r0, r2
+079c:   | 10 03 54 00 00 00      | mov_imm r3, 0x54
+07a2:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+07a9:   | 60 00 00 00 00 00      | mov_char r0, flag[0]
+07af:   | 60 01 05 00 00 00      | mov_char r1, flag[5]
+07b5:   | 30 00 01               | xor r0, r1
+07b8:   | 60 02 08 00 00 00      | mov_char r2, flag[8]
+07be:   | 30 00 02               | xor r0, r2
+07c1:   | 10 03 1a 00 00 00      | mov_imm r3, 0x1a
+07c7:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+07ce:   | 60 00 02 00 00 00      | mov_char r0, flag[2]
+07d4:   | 60 01 06 00 00 00      | mov_char r1, flag[6]
+07da:   | 30 00 01               | xor r0, r1
+07dd:   | 60 02 16 00 00 00      | mov_char r2, flag[22]
+07e3:   | 20 00 02               | add r0, r2
+07e6:   | 10 03 8a 00 00 00      | mov_imm r3, 0x8a
+07ec:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+07f3:   | 60 00 09 00 00 00      | mov_char r0, flag[9]
+07f9:   | 60 01 0f 00 00 00      | mov_char r1, flag[15]
+07ff:   | 30 00 01               | xor r0, r1
+0802:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+0808:   | 30 00 02               | xor r0, r2
+080b:   | 10 03 38 00 00 00      | mov_imm r3, 0x38
+0811:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0818:   | 60 00 04 00 00 00      | mov_char r0, flag[4]
+081e:   | 60 01 12 00 00 00      | mov_char r1, flag[18]
+0824:   | 20 00 01               | add r0, r1
+0827:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+082d:   | 20 00 02               | add r0, r2
+0830:   | 10 03 12 01 00 00      | mov_imm r3, 0x112
+0836:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+083d:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0843:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0849:   | 30 00 01               | xor r0, r1
+084c:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+0852:   | 20 00 02               | add r0, r2
+0855:   | 10 03 a1 00 00 00      | mov_imm r3, 0xa1
+085b:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0862:   | 60 00 07 00 00 00      | mov_char r0, flag[7]
+0868:   | 60 01 09 00 00 00      | mov_char r1, flag[9]
+086e:   | 20 00 01               | add r0, r1
+0871:   | 60 02 10 00 00 00      | mov_char r2, flag[16]
+0877:   | 30 00 02               | xor r0, r2
+087a:   | 10 03 f7 00 00 00      | mov_imm r3, 0xf7
+0880:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0887:   | 60 00 05 00 00 00      | mov_char r0, flag[5]
+088d:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0893:   | 30 00 01               | xor r0, r1
+0896:   | 60 02 10 00 00 00      | mov_char r2, flag[16]
+089c:   | 30 00 02               | xor r0, r2
+089f:   | 10 03 5f 00 00 00      | mov_imm r3, 0x5f
+08a5:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+08ac:   | 60 00 05 00 00 00      | mov_char r0, flag[5]
+08b2:   | 60 01 07 00 00 00      | mov_char r1, flag[7]
+08b8:   | 20 00 01               | add r0, r1
+08bb:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+08c1:   | 30 00 02               | xor r0, r2
+08c4:   | 10 03 e1 00 00 00      | mov_imm r3, 0xe1
+08ca:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+08d1:   | 60 00 08 00 00 00      | mov_char r0, flag[8]
+08d7:   | 60 01 0e 00 00 00      | mov_char r1, flag[14]
+08dd:   | 30 00 01               | xor r0, r1
+08e0:   | 60 02 0f 00 00 00      | mov_char r2, flag[15]
+08e6:   | 30 00 02               | xor r0, r2
+08e9:   | 10 03 3c 00 00 00      | mov_imm r3, 0x3c
+08ef:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+08f6:   | 60 00 07 00 00 00      | mov_char r0, flag[7]
+08fc:   | 60 01 0a 00 00 00      | mov_char r1, flag[10]
+0902:   | 30 00 01               | xor r0, r1
+0905:   | 60 02 0e 00 00 00      | mov_char r2, flag[14]
+090b:   | 20 00 02               | add r0, r2
+090e:   | 10 03 3c 00 00 00      | mov_imm r3, 0x3c
+0914:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+091b:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0921:   | 60 01 04 00 00 00      | mov_char r1, flag[4]
+0927:   | 20 00 01               | add r0, r1
+092a:   | 60 02 08 00 00 00      | mov_char r2, flag[8]
+0930:   | 20 00 02               | add r0, r2
+0933:   | 10 03 15 01 00 00      | mov_imm r3, 0x115
+0939:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0940:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+0946:   | 60 01 08 00 00 00      | mov_char r1, flag[8]
+094c:   | 30 00 01               | xor r0, r1
+094f:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+0955:   | 30 00 02               | xor r0, r2
+0958:   | 10 03 31 00 00 00      | mov_imm r3, 0x31
+095e:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+0965:   | 60 00 09 00 00 00      | mov_char r0, flag[9]
+096b:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0971:   | 20 00 01               | add r0, r1
+0974:   | 60 02 14 00 00 00      | mov_char r2, flag[20]
+097a:   | 20 00 02               | add r0, r2
+097d:   | 10 03 04 01 00 00      | mov_imm r3, 0x104
+0983:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+098a:   | 60 00 01 00 00 00      | mov_char r0, flag[1]
+0990:   | 60 01 0b 00 00 00      | mov_char r1, flag[11]
+0996:   | 30 00 01               | xor r0, r1
+0999:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+099f:   | 30 00 02               | xor r0, r2
+09a2:   | 10 03 19 00 00 00      | mov_imm r3, 0x19
+09a8:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+09af:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+09b5:   | 60 01 08 00 00 00      | mov_char r1, flag[8]
+09bb:   | 20 00 01               | add r0, r1
+09be:   | 60 02 15 00 00 00      | mov_char r2, flag[21]
+09c4:   | 20 00 02               | add r0, r2
+09c7:   | 10 03 d6 00 00 00      | mov_imm r3, 0xd6
+09cd:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+09d4:   | 60 00 03 00 00 00      | mov_char r0, flag[3]
+09da:   | 60 01 08 00 00 00      | mov_char r1, flag[8]
+09e0:   | 20 00 01               | add r0, r1
+09e3:   | 60 02 09 00 00 00      | mov_char r2, flag[9]
+09e9:   | 30 00 02               | xor r0, r2
+09ec:   | 10 03 90 00 00 00      | mov_imm r3, 0x90
+09f2:   | 50 00 03 28 0a 00 00   | jne r0, r3, 0xa28
+09f9:   | 10 01 69 69 69 69      | mov_imm r1, 0x69696969
+09ff:   | 70                     | halt
+0a00:   | 40 28 0a 00 00         | jmp 0xa28
+0a05:   | 40 28 0a 00 00         | jmp 0xa28
+0a0a:   | 40 28 0a 00 00         | jmp 0xa28
+0a0f:   | 40 28 0a 00 00         | jmp 0xa28
+0a14:   | 40 28 0a 00 00         | jmp 0xa28
+0a19:   | 40 28 0a 00 00         | jmp 0xa28
+0a1e:   | 40 28 0a 00 00         | jmp 0xa28
+0a23:   | 40 28 0a 00 00         | jmp 0xa28
+0a28:   | 10 01 00 00 00 00      | mov_imm r1, 0x0
+0a2e:   | ff                     | db 0xff
