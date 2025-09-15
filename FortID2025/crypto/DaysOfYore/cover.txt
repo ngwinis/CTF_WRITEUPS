@@ -1,0 +1,131 @@
+<div class="card-body p-0">
+    <div class="tab-content" id="challengeTabContent">
+      <div class="p-4 tab-pane fade show active" id="challenge-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <p class="h2 text-center pt-3">
+          Days of Yore
+        </p>
+        <p class="h3 text-center">
+          498
+        </p>
+        
+        
+        <small class="challenge-attribution text-center text-muted">
+          
+        </small>
+        <div class="my-3 challenge-desc">
+          
+            <p>Long before cryptography became a playground of prime numbers and elliptic curves, it was more like a craft project 🎨. People would shuffle letters, invent quirky alphabets, or scribble secret notes that only their friends could read. It was messy, creative, and surprisingly fun.</p>
+<p>This challenge is a little trip back to that era. What you’re staring at once began as a few plain paragraphs of English text 📖. Nothing fancy, just words on a page. But now those words carry a secret, tucked away like a treasure waiting to be found 🏴.</p>
+<p>Unfortunately, the encryption/decryption key is forever lost, hope that's not too much of an inconvenience...</p>
+<p>Can you put yourself in the shoes of an old-school codebreaker and bring the hidden message back to life?</p>
+
+          
+        </div>
+        
+        
+        
+          <div class="row">
+            
+              <div class="col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block">
+                
+                
+                
+                  
+                
+                <a class="btn btn-outline-primary btn-file mb-1 d-inline-block px-2 w-100 text-truncate" href="/files/514ffc69d6379627b81851d2fd08d9b3/ciphertext.txt?token=eyJ1c2VyX2lkIjoxMDgwLCJ0ZWFtX2lkIjo1NTIsImZpbGVfaWQiOjI4fQ.aMYzlQ.LBuZ1a93ieJZoCEF4fMeXO1r9go" title="ciphertext.txt">
+                  <i class="fas fa-download"></i>
+                  <small>ciphertext.txt</small>
+                </a>
+              </div>
+            
+          </div>
+        
+        <div class="row">
+          <div class="col-12">
+            <template x-if="response">
+              <div class="card mt-3">
+                <div class="card-body">
+                  <p class="h6 card-title mb-0">
+                    <template x-if="response.data.status == 'correct'">
+                      <span>
+                        <span class="text-muted">[</span><span class="text-primary">*</span><span class="text-muted">]</span>
+                      </span>
+                    </template>
+                    <template x-if="response.data.status == 'already_solved'">
+                      <span>
+                        <span class="text-muted">[</span><span class="text-info">*</span><span class="text-muted">]</span>
+                      </span>
+                    </template>
+                    <template x-if="response.data.status == 'incorrect'">
+                      <span>
+                        <span class="text-muted">[</span><span class="text-danger">!</span><span class="text-muted">]</span>
+                      </span>
+                    </template>
+                    <span x-text="response.data.message"></span>
+                  </p>
+                  <template x-if="response.data.status == 'correct' || response.data.status == 'already_solved'">
+                    <div class="d-flex justify-content-between">
+                      <div x-show="getNextId()">
+                        <button @click="nextChallenge()" class="btn btn-info mt-3">
+                          Next Challenge
+                        </button>
+                      </div>
+                      
+                        <div>
+                          <button x-show="!share_url" @click="getShareUrl()" class="btn btn-outline-info mt-3">
+                            Share
+                          </button>
+                          <div class="btn-group mt-3" role="group" x-show="share_url">
+                            <button type="button" class="btn btn-sm btn-outline-info" @click="copyShareUrl()" data-bs-toggle="tooltip" data-bs-title="Copied!">
+                              <i class="fa-solid fa-copy"></i>
+                            </button>
+                            <a :href="'https://twitter.com/intent/tweet?url=' + encodeURIComponent(share_url)" role="button" class="btn btn-sm btn-outline-info" target="_blank">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a :href="'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(share_url)" role="button" class="btn btn-sm btn-outline-info" target="_blank">
+                              <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a :href="'http://www.linkedin.com/shareArticle?url=' + encodeURIComponent(share_url)" role="button" class="btn btn-sm btn-outline-info" target="_blank">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </div></template>
+            </div>
+          </div>
+        </div>
+        <div class="py-4 tab-pane fade" id="solves-tab-pane" role="tabpanel" aria-labelledby="solves-tab" tabindex="0">
+          <div class="row">
+            <div class="col-12">
+              <table class="m-0 table table-striped text-center">
+                <thead>
+                  <tr class="fw-bolder">
+                    <td>
+                      Name
+                    </td>
+                    <td>
+                      Date
+                    </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <template x-for="solve in solves">
+                    <tr>
+                      <td>
+                        <a :href="solve.account_url" x-text="solve.name"></a>
+                      </td>
+                      <td x-text="solve.date">
+                      </td>
+                    </tr>
+                  </template>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
