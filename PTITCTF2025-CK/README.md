@@ -1,0 +1,10 @@
+# PTITCTF2025 - Chung kết
+
+Ở vòng chung kết của giải PTITCTF 2025, team Obsidian giải được những bài sau:
+
+|Tên challenge|Mảng|Flag|
+|-------------|----|----|
+|[Hublot]([Intro/Discord](https://furtive-friday-38b.notion.site/PTIT-2750f645bcdf80b1a61ae58b6c0907a2?source=copy_link))|Forensics|`PTITCTF{Warm_Up_so_Crazy}`|
+|[Lawer](rev/Lawer)|Reverse Engineering|`PTITCTF{This_1snot_m4lware_don't_worry}`|
+|[Carnival Show](rev/CarnivalShow-bounty)|Reverse Engineering|`PTITCTF{Y0u_c4n_bypass_4ll_types_0f_4nt1!!!}`|
+|[QuackQuack](crypto/QuackQuack)|Cryptography|`PTITCTF{predict_the_quacker_y0u_crypto_duckmaster!}`|
