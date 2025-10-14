@@ -4,4 +4,4 @@
 
 |Tên|Mảng|Flag|
 |-|-|-|
-|[clockwork](/rev/clockwork)|Reverse Engineering|`EnXp{5CR3W_TH3_4WN_4UTH0R}`|
+|[clockwork](rev/clockwork)|Reverse Engineering|`EnXp{5CR3W_TH3_4WN_4UTH0R}`|
