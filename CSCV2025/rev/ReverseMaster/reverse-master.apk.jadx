@@ -1,0 +1,116 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "reverse-master.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Files",
+      "Inputs",
+      "reverse-master.apk"
+    ],
+    [
+      "Source code",
+      "reverse-master.apk"
+    ],
+    [
+      "Resources",
+      "reverse-master.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "reverse-master.apk"
+    ],
+    [
+      "ctf.challenge",
+      "com",
+      "Source code",
+      "reverse-master.apk"
+    ],
+    [
+      "com.ctf.challenge.MainActivity",
+      "ctf.challenge",
+      "com",
+      "Source code",
+      "reverse-master.apk"
+    ],
+    [
+      "lib",
+      "Resources",
+      "reverse-master.apk"
+    ],
+    [
+      "arm64-v8a",
+      "lib",
+      "Resources",
+      "reverse-master.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "android.app.UiModeManager$ContrastChangeListener",
+      "subPath": "java",
+      "caret": 89,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 1016,
+      "view": {
+        "x": 0,
+        "y": 80
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.ctf.challenge.MainActivity",
+      "subPath": "java",
+      "caret": 9292,
+      "view": {
+        "x": 0,
+        "y": 2855
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "lib/arm64-v8a/libnative-lib.so",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "cacheDir": "C:\\Users\\ASUS\\AppData\\Local\\skylot\\jadx\\cache\\projects\\reverse-master-67860d254e66eef9e0f8909af8f64685",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}
