@@ -8,6 +8,6 @@
 |[Python 0bf](rev/Python0bf)|Rev|`v1t{d4ng_u_kn0w_pyth0n_d3bugg}`|
 |[Duck RPG](rev/DuckRPG)|Rev|`v1t{p4tch_th3_b4tch_t0_g3t_th3_s3cr3t_3nd1ng}`|
 |[Snail Delivery](rev/SnailDelivery)|Rev|`v1t{sn4il_d3l1v3ry_sl0w_4f_36420762ab}`|
-|[Optimus](rev/Optimus)|Rev|``|
+|[Optimus](rev/Optimus)|Rev|`v1t{pr1m35}`|
 |[Bad Reverser](rev/BadReverser)|Rev|``|
 |[Color](crypto/Color)|Crypto|`V1T{CHR0M0PH0B14}`|
