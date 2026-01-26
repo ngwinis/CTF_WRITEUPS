@@ -163,4 +163,4 @@
 
 ## [3] SOLVE
 - Solver: [solve.py](solve.py)
-> Flag:
+> **Flag:** `VSL{d0nt_trust_ops_even_wh3n_th3y_pretend_to_be_s4f3_2026_edfefa180f0ca9a7}`

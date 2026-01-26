@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from dataclasses import dataclass
 
 SO_PATH = "app-release/lib/x86_64/libveilcore.so"
@@ -6,7 +5,6 @@ SO_PATH = "app-release/lib/x86_64/libveilcore.so"
 BYTECODE_OFF = 0x23B0
 BYTECODE_LEN = 0x0DE9
 
-# opcode indices (từ dispatch table đã được init trong VM)
 OP_JCC           = 8
 OP_ADD           = 19
 OP_AND           = 31
@@ -140,7 +138,6 @@ def vm_step(state):
     elif op == OP_HALT:
         return ("halt", (fail == 0))
 
-    # key update (đúng theo logic dưới đáy loop)
     stacklen8 = len(stack) & 0xFF
     key = ((key >> 3) ^ cond ^ stacklen8 ^ 0xA5A5A5A5) & 0xFFFFFFFF
     return ("ok", (pc, key, cond, fail, stack, inp))
@@ -159,13 +156,12 @@ def run_until_need(inp, max_steps=500000):
     return ("timeout", None, max_steps)
 
 def solve():
-    inp = [None] * 0x4B  # 75 bytes
+    inp = [None] * 0x4B
     solved = {}
 
     while True:
         status, info, steps = run_until_need(inp)
         if status == "halt":
-            # done
             flag = bytes(inp)
             print(flag.decode("utf-8", errors="replace"))
             return
@@ -180,7 +176,6 @@ def solve():
             inp[idx] = v
             st2, info2, steps2 = run_until_need(inp)
             if st2 in ("need", "halt"):
-                # pick the one that goes farthest
                 score = steps2
                 cand = (score, st2, v)
                 if best is None or cand > best:
