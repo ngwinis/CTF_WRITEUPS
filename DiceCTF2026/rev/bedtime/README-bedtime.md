@@ -151,6 +151,6 @@ for i in range(0, 384, 8):
 ```
 
 ## 7. Solve
-- Script: 
+- Script: [solve.py](solve.py)
 
 > **Flag**: `dice{regularly_runs_like_mad_to_game_of_matches}`
