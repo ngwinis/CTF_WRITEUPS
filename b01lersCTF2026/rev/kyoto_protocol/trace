@@ -1,0 +1,328 @@
++ ./chall
++ trap int INT
++ ./chall 8 9823
++ export g_1117=44
++ g_1117=44
++ ./chall 10 4098
++ export g_5601=86
++ g_5601=86
++ ./chall 12 5395
++ export g_1559=41
++ g_1559=41
++ ./chall 14 9734
++ export g_3297=58
++ g_3297=58
++ ./chall 16 8107
++ export g_8262=65
++ g_8262=65
++ ./chall 18 5441
++ export g_5115=57
++ g_5115=57
++ ./chall 20 8682
++ export g_3049=34
++ g_3049=34
++ ./chall 22 369
++ export g_5572=98
++ g_5572=98
++ ./chall 24 4284
++ export g_6199=85
++ g_6199=85
++ ./chall 26 5954
++ export g_6630=57
++ g_6630=57
++ ./chall 28 5707
++ export g_2671=82
++ g_2671=82
++ ./chall 30 5596
++ export g_1611=36
++ g_1611=36
++ ./chall 32 8885
++ export g_9560=39
++ g_9560=39
++ ./chall 34 1256
++ export g_2328=33
++ g_2328=33
++ ./chall 36 4523
++ export g_7622=39
++ g_7622=39
++ ./chall 38 4227
++ export g_7976=61
++ g_7976=61
++ ./chall 40 9206
++ export g_4690=70
++ g_4690=70
++ ./chall 42 2491
++ export g_8715=40
++ g_8715=40
++ ./chall 44 9952
++ export g_2399=98
++ g_2399=98
++ ./chall 46 1242
++ export g_7572=61
++ g_7572=61
++ ./chall 48 1482
++ export g_4184=56
++ g_4184=56
++ ./chall 50 5235
++ export g_6359=96
++ g_6359=96
++ ./chall 52 6756
++ export g_3110=48
++ g_3110=48
++ ./chall 54 8338
++ export g_4158=49
++ g_4158=49
++ ./chall 56 9799
++ export g_2093=58
++ g_2093=58
++ ./chall 58 6448
++ export g_2788=90
++ g_2788=90
++ ./chall 60 474
++ export g_1827=65
++ g_1827=65
++ ./chall 62 8211
++ export g_7918=37
++ g_7918=37
++ ./chall 64 2490
++ export g_8506=35
++ g_8506=35
++ ./chall 66 9109
++ export g_3812=92
++ g_3812=92
++ ./chall 68 3541
++ export g_2426=51
++ g_2426=51
++ ./chall 70 8656
++ export g_9532=60
++ g_9532=60
++ ./chall 72 6671
++ export g_8360=65
++ g_8360=65
++ ./chall 74 8636
++ export g_7941=99
++ g_7941=99
++ ./chall 76 2316
++ export g_7985=39
++ g_7985=39
++ ./chall 78 2027
++ export g_9888=98
++ g_9888=98
++ ./chall 80 152
++ export g_5819=54
++ g_5819=54
++ ./chall 82 3932
++ export g_3333=33
++ g_3333=33
++ ./chall 84 3711
++ export g_5081=54
++ g_5081=54
++ ./chall 86 3509
++ export g_9076=79
++ g_9076=79
++ ./chall 88 2697
++ export g_4689=67
++ g_4689=67
++ ./chall 90 9115
++ export g_2206=61
++ g_2206=61
++ ./chall 92 2373
++ export g_1900=85
++ g_1900=85
++ ./chall 94 9735
++ export g_8356=76
++ g_8356=76
++ ./chall 96 5043
++ export g_7774=49
++ g_7774=49
++ ./chall 98 9510
++ export g_9074=60
++ g_9074=60
++ ./chall 100 9682
++ export g_5070=82
++ g_5070=82
++ ./chall 102 4499
++ export g_4706=63
++ g_4706=63
++ ./chall 104 4181
++ export g_6560=30
++ g_6560=30
++ ./chall 106 9899
++ export g_5505=96
++ g_5505=96
++ ./chall 108 8436
++ export g_9120=61
++ g_9120=61
++ ./chall 110 3760
++ export g_9230=76
++ g_9230=76
++ ./chall 112 1787
++ export g_2643=61
++ g_2643=61
++ ./chall 114 5306
++ export g_1484=75
++ g_1484=75
++ ./chall 116 5361
++ export g_7833=75
++ g_7833=75
++ ./chall 118 6247
++ export g_5793=89
++ g_5793=89
++ ./chall 120 540
++ export g_7748=30
++ g_7748=30
++ ./chall 122 2225
++ export g_2988=43
++ g_2988=43
++ ./chall 124 5070
++ export g_8883=76
++ g_8883=76
++ ./chall 126 4944
++ export g_3935=61
++ g_3935=61
++ ./chall 128 8556
++ export g_8475=98
++ g_8475=98
++ ./chall 130 2327
++ export g_8904=89
++ g_8904=89
++ ./chall 132 5778
++ export g_7345=99
++ g_7345=99
++ ./chall 134 634
++ export g_5795=39
++ g_5795=39
++ ./chall 136 2524
++ export g_9283=93
++ g_9283=93
++ ./chall 138 6883
++ export g_2497=39
++ g_2497=39
++ ./chall 140 9202
++ export g_4590=97
++ g_4590=97
++ ./chall 142 4454
++ export g_5551=93
++ g_5551=93
++ ./chall 144 6353
++ export g_5050=57
++ g_5050=57
++ ./chall 146 8939
++ export g_6974=97
++ g_6974=97
++ ./chall 148 7265
++ export g_4910=31
++ g_4910=31
++ ./chall 150 7338
++ export g_3862=63
++ g_3862=63
++ ./chall 152 2253
++ export g_4711=55
++ g_4711=55
++ ./chall 154 7882
++ export g_8228=85
++ g_8228=85
++ ./chall 156 3874
++ export g_9342=51
++ g_9342=51
++ ./chall 158 8024
++ export g_7980=39
++ g_7980=39
++ ./chall 160 2262
++ export g_2045=51
++ g_2045=51
++ ./chall 162 5289
++ export g_7534=40
++ g_7534=40
++ ./chall 164 9895
++ export g_8902=71
++ g_8902=71
++ ./chall 166 7937
++ export g_8691=95
++ g_8691=95
++ ./chall 168 6585
++ export g_2812=33
++ g_2812=33
++ ./chall 170 7218
++ export g_6118=37
++ g_6118=37
++ ./chall 172 9658
++ export g_2189=88
++ g_2189=88
++ ./chall 174 7065
++ export g_8511=56
++ g_8511=56
++ ./chall 176 2846
++ export g_8508=39
++ g_8508=39
++ ./chall 178 2438
++ export g_5311=50
++ g_5311=50
++ ./chall 180 2550
++ export g_7693=92
++ g_7693=92
++ ./chall 182 7622
++ export g_4136=82
++ g_4136=82
++ ./chall 184 2243
++ export g_4635=74
++ g_4635=74
++ ./chall 186 9486
++ export g_4895=68
++ g_4895=68
++ ./chall 188 1151
++ export g_5466=43
++ g_5466=43
++ ./chall 190 2788
++ export g_3650=50
++ g_3650=50
++ ./chall 192 5255
++ export g_3624=53
++ g_3624=53
++ ./chall 194 9910
++ export g_1804=58
++ g_1804=58
++ ./chall 196 1773
++ export g_5063=56
++ g_5063=56
++ ./chall 198 5997
++ export g_4545=79
++ g_4545=79
++ ./chall 200 436
++ export g_9999=92
++ g_9999=92
++ ./chall 202 1497
++ export g_1277=67
++ g_1277=67
++ ./chall 204 3864
++ export g_4387=84
++ g_4387=84
++ ./chall 206 485
++ export g_4412=75
++ g_4412=75
++ ./chall 208 4726
++ export g_8694=93
++ g_8694=93
++ ./chall 210 1316
++ export g_4968=72
++ g_4968=72
++ ./chall 212 7760
++ export g_2431=15
++ g_2431=15
++ ./chall 214 5544
++ export g_3694=27
++ g_3694=27
++ ./chall 216 1913
++ echo 'Enter the password:'
++ ./chall 218 2339
++ read -n 100 input
++ export input
++ ./chall 221 8275
++ export i0=49
++ i0=49
++ export i1=50
++ i1=50
++ export i2=51
++ i2=51
++ ./chall 225 8947
++ echo 'Checking... (this may take a while)'
