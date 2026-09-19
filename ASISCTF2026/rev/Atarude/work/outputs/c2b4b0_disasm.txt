@@ -1,0 +1,132 @@
+
+work\evidence\archive_contents\Atarude\Atarude:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000c2b4b0 <.text+0x7340>:
+  c2b4b0:	41 56                	push   r14
+  c2b4b2:	53                   	push   rbx
+  c2b4b3:	48 83 ec 38          	sub    rsp,0x38
+  c2b4b7:	48 01 d6             	add    rsi,rdx
+  c2b4ba:	72 3e                	jb     0xc2b4fa
+  c2b4bc:	48 89 fb             	mov    rbx,rdi
+  c2b4bf:	48 8b 3f             	mov    rdi,QWORD PTR [rdi]
+  c2b4c2:	4c 8d 34 3f          	lea    r14,[rdi+rdi*1]
+  c2b4c6:	4c 39 f6             	cmp    rsi,r14
+  c2b4c9:	4c 0f 47 f6          	cmova  r14,rsi
+  c2b4cd:	31 c0                	xor    eax,eax
+  c2b4cf:	48 83 f9 01          	cmp    rcx,0x1
+  c2b4d3:	0f 94 c0             	sete   al
+  c2b4d6:	48 8d 04 85 04 00 00 	lea    rax,[rax*4+0x4]
+  c2b4dd:	00 
+  c2b4de:	49 39 c6             	cmp    r14,rax
+  c2b4e1:	4c 0f 46 f0          	cmovbe r14,rax
+  c2b4e5:	48 89 c8             	mov    rax,rcx
+  c2b4e8:	49 f7 e6             	mul    r14
+  c2b4eb:	0f 90 c2             	seto   dl
+  c2b4ee:	48 85 c0             	test   rax,rax
+  c2b4f1:	40 0f 98 c6          	sets   sil
+  c2b4f5:	40 08 d6             	or     sil,dl
+  c2b4f8:	74 0e                	je     0xc2b508
+  c2b4fa:	31 ff                	xor    edi,edi
+  c2b4fc:	48 8d 15 dd fc 04 00 	lea    rdx,[rip+0x4fcdd]        # 0xc7b1e0
+  c2b503:	e8 80 09 00 00       	call   0xc2be88
+  c2b508:	48 85 ff             	test   rdi,rdi
+  c2b50b:	75 04                	jne    0xc2b511
+  c2b50d:	31 c9                	xor    ecx,ecx
+  c2b50f:	eb 17                	jmp    0xc2b528
+  c2b511:	48 8b 53 08          	mov    rdx,QWORD PTR [rbx+0x8]
+  c2b515:	48 0f af f9          	imul   rdi,rcx
+  c2b519:	48 89 54 24 20       	mov    QWORD PTR [rsp+0x20],rdx
+  c2b51e:	48 89 7c 24 30       	mov    QWORD PTR [rsp+0x30],rdi
+  c2b523:	b9 01 00 00 00       	mov    ecx,0x1
+  c2b528:	48 89 4c 24 28       	mov    QWORD PTR [rsp+0x28],rcx
+  c2b52d:	48 8d 7c 24 08       	lea    rdi,[rsp+0x8]
+  c2b532:	48 8d 54 24 20       	lea    rdx,[rsp+0x20]
+  c2b537:	48 89 c6             	mov    rsi,rax
+  c2b53a:	e8 21 fe ff ff       	call   0xc2b360
+  c2b53f:	83 7c 24 08 01       	cmp    DWORD PTR [rsp+0x8],0x1
+  c2b544:	74 14                	je     0xc2b55a
+  c2b546:	48 8b 44 24 10       	mov    rax,QWORD PTR [rsp+0x10]
+  c2b54b:	48 89 43 08          	mov    QWORD PTR [rbx+0x8],rax
+  c2b54f:	4c 89 33             	mov    QWORD PTR [rbx],r14
+  c2b552:	48 83 c4 38          	add    rsp,0x38
+  c2b556:	5b                   	pop    rbx
+  c2b557:	41 5e                	pop    r14
+  c2b559:	c3                   	ret
+  c2b55a:	48 8b 7c 24 10       	mov    rdi,QWORD PTR [rsp+0x10]
+  c2b55f:	48 8b 74 24 18       	mov    rsi,QWORD PTR [rsp+0x18]
+  c2b564:	48 8d 15 75 fc 04 00 	lea    rdx,[rip+0x4fc75]        # 0xc7b1e0
+  c2b56b:	e8 18 09 00 00       	call   0xc2be88
+  c2b570:	48 89 f0             	mov    rax,rsi
+  c2b573:	48 8b 77 08          	mov    rsi,QWORD PTR [rdi+0x8]
+  c2b577:	48 8b 57 10          	mov    rdx,QWORD PTR [rdi+0x10]
+  c2b57b:	48 89 c7             	mov    rdi,rax
+  c2b57e:	e9 3d 25 00 00       	jmp    0xc2dac0
+  c2b583:	cc                   	int3
+  c2b584:	cc                   	int3
+  c2b585:	cc                   	int3
+  c2b586:	cc                   	int3
+  c2b587:	cc                   	int3
+  c2b588:	cc                   	int3
+  c2b589:	cc                   	int3
+  c2b58a:	cc                   	int3
+  c2b58b:	cc                   	int3
+  c2b58c:	cc                   	int3
+  c2b58d:	cc                   	int3
+  c2b58e:	cc                   	int3
+  c2b58f:	cc                   	int3
+  c2b590:	4c 8b 1f             	mov    r11,QWORD PTR [rdi]
+  c2b593:	48 8b 4f 08          	mov    rcx,QWORD PTR [rdi+0x8]
+  c2b597:	49 39 cb             	cmp    r11,rcx
+  c2b59a:	0f 84 69 01 00 00    	je     0xc2b709
+  c2b5a0:	55                   	push   rbp
+  c2b5a1:	41 57                	push   r15
+  c2b5a3:	41 56                	push   r14
+  c2b5a5:	53                   	push   rbx
+  c2b5a6:	49 89 d1             	mov    r9,rdx
+  c2b5a9:	49 83 e1 e0          	and    r9,0xffffffffffffffe0
+  c2b5ad:	49 89 d2             	mov    r10,rdx
+  c2b5b0:	49 83 e2 fc          	and    r10,0xfffffffffffffffc
+  c2b5b4:	eb 1e                	jmp    0xc2b5d4
+  c2b5b6:	66 2e 0f 1f 84 00 00 	cs nop WORD PTR [rax+rax*1+0x0]
+  c2b5bd:	00 00 00 
+  c2b5c0:	84 db                	test   bl,bl
+  c2b5c2:	0f 84 46 01 00 00    	je     0xc2b70e
+  c2b5c8:	4d 89 c3             	mov    r11,r8
+  c2b5cb:	49 39 c8             	cmp    r8,rcx
+  c2b5ce:	0f 84 38 01 00 00    	je     0xc2b70c
+  c2b5d4:	4d 8d 43 18          	lea    r8,[r11+0x18]
+  c2b5d8:	49 39 53 10          	cmp    QWORD PTR [r11+0x10],rdx
+  c2b5dc:	75 ea                	jne    0xc2b5c8
+  c2b5de:	b0 01                	mov    al,0x1
+  c2b5e0:	48 85 d2             	test   rdx,rdx
+  c2b5e3:	0f 84 25 01 00 00    	je     0xc2b70e
+  c2b5e9:	4d 8b 5b 08          	mov    r11,QWORD PTR [r11+0x8]
+  c2b5ed:	48 83 fa 03          	cmp    rdx,0x3
+  c2b5f1:	77 0d                	ja     0xc2b600
+  c2b5f3:	31 db                	xor    ebx,ebx
+  c2b5f5:	45 31 ff             	xor    r15d,r15d
+  c2b5f8:	e9 f3 00 00 00       	jmp    0xc2b6f0
+  c2b5fd:	0f 1f 00             	nop    DWORD PTR [rax]
+  c2b600:	48 83 fa 20          	cmp    rdx,0x20
+  c2b604:	73 0a                	jae    0xc2b610
+  c2b606:	45 31 f6             	xor    r14d,r14d
+  c2b609:	31 db                	xor    ebx,ebx
+  c2b60b:	e9 89 00 00 00       	jmp    0xc2b699
+  c2b610:	66 0f ef c0          	pxor   xmm0,xmm0
+  c2b614:	31 db                	xor    ebx,ebx
+  c2b616:	66 0f ef c9          	pxor   xmm1,xmm1
+  c2b61a:	66 0f 1f 44 00 00    	nop    WORD PTR [rax+rax*1+0x0]
+  c2b620:	f3 41 0f 6f 14 1b    	movdqu xmm2,XMMWORD PTR [r11+rbx*1]
+  c2b626:	f3 41 0f 6f 5c 1b 10 	movdqu xmm3,XMMWORD PTR [r11+rbx*1+0x10]
+  c2b62d:	f3 0f 6f 24 1e       	movdqu xmm4,XMMWORD PTR [rsi+rbx*1]
+  c2b632:	66 0f ef e2          	pxor   xmm4,xmm2
+  c2b636:	66 0f eb c4          	por    xmm0,xmm4
+  c2b63a:	f3 0f 6f 54 1e 10    	movdqu xmm2,XMMWORD PTR [rsi+rbx*1+0x10]
+  c2b640:	66 0f ef d3          	pxor   xmm2,xmm3
+  c2b644:	66 0f eb ca          	por    xmm1,xmm2
+  c2b648:	48 83 c3 20          	add    rbx,0x20
+  c2b64c:	49 39 d9             	cmp    r9,rbx
+  c2b64f:	75                 	jne    0xc2b620

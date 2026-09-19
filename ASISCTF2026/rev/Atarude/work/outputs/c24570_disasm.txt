@@ -1,0 +1,126 @@
+
+work\evidence\archive_contents\Atarude\Atarude:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000c24570 <.text+0x400>:
+  c24570:	55                   	push   rbp
+  c24571:	41 57                	push   r15
+  c24573:	41 56                	push   r14
+  c24575:	41 55                	push   r13
+  c24577:	41 54                	push   r12
+  c24579:	53                   	push   rbx
+  c2457a:	48 83 ec 48          	sub    rsp,0x48
+  c2457e:	49 89 ce             	mov    r14,rcx
+  c24581:	49 89 d7             	mov    r15,rdx
+  c24584:	48 89 7c 24 28       	mov    QWORD PTR [rsp+0x28],rdi
+  c24589:	0f 57 c0             	xorps  xmm0,xmm0
+  c2458c:	0f 29 04 24          	movaps XMMWORD PTR [rsp],xmm0
+  c24590:	49 bb 15 7c 4a 7f b9 	movabs r11,0x9e3779b97f4a7c15
+  c24597:	79 37 9e 
+  c2459a:	45 31 c0             	xor    r8d,r8d
+  c2459d:	49 b9 a3 e1 db 28 6e 	movabs r9,0xa9c8666e28dbe1a3
+  c245a4:	66 c8 a9 
+  c245a7:	4c 8d 15 b6 0a 3e ff 	lea    r10,[rip+0xffffffffff3e0ab6]        # 0x5064
+  c245ae:	31 c9                	xor    ecx,ecx
+  c245b0:	4c 8d 61 01          	lea    r12,[rcx+0x1]
+  c245b4:	4c 89 d8             	mov    rax,r11
+  c245b7:	48 c1 e0 0d          	shl    rax,0xd
+  c245bb:	4c 31 d8             	xor    rax,r11
+  c245be:	48 89 c2             	mov    rdx,rax
+  c245c1:	48 c1 ea 07          	shr    rdx,0x7
+  c245c5:	48 31 c2             	xor    rdx,rax
+  c245c8:	49 89 d3             	mov    r11,rdx
+  c245cb:	49 c1 e3 11          	shl    r11,0x11
+  c245cf:	49 31 d3             	xor    r11,rdx
+  c245d2:	4c 89 df             	mov    rdi,r11
+  c245d5:	4c 31 c7             	xor    rdi,r8
+  c245d8:	48 89 f8             	mov    rax,rdi
+  c245db:	49 f7 e1             	mul    r9
+  c245de:	48 c1 ea 17          	shr    rdx,0x17
+  c245e2:	48 69 c2 e0 ff c0 00 	imul   rax,rdx,0xc0ffe0
+  c245e9:	89 ca                	mov    edx,ecx
+  c245eb:	83 e2 0f             	and    edx,0xf
+  c245ee:	0f b6 1c 14          	movzx  ebx,BYTE PTR [rsp+rdx*1]
+  c245f2:	d2 c3                	rol    bl,cl
+  c245f4:	48 29 c7             	sub    rdi,rax
+  c245f7:	4c 89 d8             	mov    rax,r11
+  c245fa:	41 32 1c 3a          	xor    bl,BYTE PTR [r10+rdi*1]
+  c245fe:	48 c1 e8 29          	shr    rax,0x29
+  c24602:	41 32 5c 3a 11       	xor    bl,BYTE PTR [r10+rdi*1+0x11]
+  c24607:	30 c3                	xor    bl,al
+  c24609:	88 1c 14             	mov    BYTE PTR [rsp+rdx*1],bl
+  c2460c:	49 81 c0 37 9e 00 00 	add    r8,0x9e37
+  c24613:	4c 89 e1             	mov    rcx,r12
+  c24616:	49 81 fc 00 18 00 00 	cmp    r12,0x1800
+  c2461d:	75 91                	jne    0xc245b0
+  c2461f:	66 0f 6f 04 24       	movdqa xmm0,XMMWORD PTR [rsp]
+  c24624:	66 0f 7f 44 24 10    	movdqa XMMWORD PTR [rsp+0x10],xmm0
+  c2462a:	4d 85 f6             	test   r14,r14
+  c2462d:	0f 84 b1 00 00 00    	je     0xc246e4
+  c24633:	49 c1 e6 04          	shl    r14,0x4
+  c24637:	40 0f b6 c6          	movzx  eax,sil
+  c2463b:	40 80 c6 0b          	add    sil,0xb
+  c2463f:	40 0f b6 ce          	movzx  ecx,sil
+  c24643:	c1 e1 08             	shl    ecx,0x8
+  c24646:	09 c1                	or     ecx,eax
+  c24648:	66 0f 6e c0          	movd   xmm0,eax
+  c2464c:	66 0f 60 c0          	punpcklbw xmm0,xmm0
+  c24650:	f2 0f 70 c8 00       	pshuflw xmm1,xmm0,0x0
+  c24655:	f3 0f 7e 15 83 ee 3d 	movq   xmm2,QWORD PTR [rip+0xffffffffff3dee83]        # 0x34e0
+  c2465c:	ff 
+  c2465d:	66 0f fc d1          	paddb  xmm2,xmm1
+  c24661:	66 0f fc 0d 67 ef 3d 	paddb  xmm1,XMMWORD PTR [rip+0xffffffffff3def67]        # 0x35d0
+  c24668:	ff 
+  c24669:	66 0f fc 05 2f eb 3d 	paddb  xmm0,XMMWORD PTR [rip+0xffffffffff3deb2f]        # 0x31a0
+  c24670:	ff 
+  c24671:	66 0f 6e d9          	movd   xmm3,ecx
+  c24675:	66 0f 61 d8          	punpcklwd xmm3,xmm0
+  c24679:	66 0f 62 d9          	punpckldq xmm3,xmm1
+  c2467d:	66 0f 6c da          	punpcklqdq xmm3,xmm2
+  c24681:	66 0f 7f 5c 24 30    	movdqa XMMWORD PTR [rsp+0x30],xmm3
+  c24687:	31 ed                	xor    ebp,ebp
+  c24689:	4c 8d 64 24 10       	lea    r12,[rsp+0x10]
+  c2468e:	49 89 e5             	mov    r13,rsp
+  c24691:	31 db                	xor    ebx,ebx
+  c24693:	66 66 66 66 2e 0f 1f 	data16 data16 data16 cs nop WORD PTR [rax+rax*1+0x0]
+  c2469a:	84 00 00 00 00 00 
+  c246a0:	f3 41 0f 6f 0c 1f    	movdqu xmm1,XMMWORD PTR [r15+rbx*1]
+  c246a6:	40 0f b6 ed          	movzx  ebp,bpl
+  c246aa:	66 0f 6e c5          	movd   xmm0,ebp
+  c246ae:	66 0f 60 c0          	punpcklbw xmm0,xmm0
+  c246b2:	f2 0f 70 c0 00       	pshuflw xmm0,xmm0,0x0
+  c246b7:	66 0f 70 c0 44       	pshufd xmm0,xmm0,0x44
+  c246bc:	66 0f fc 44 24 30    	paddb  xmm0,XMMWORD PTR [rsp+0x30]
+  c246c2:	66 0f ef c1          	pxor   xmm0,xmm1
+  c246c6:	66 0f ef 44 24 10    	pxor   xmm0,XMMWORD PTR [rsp+0x10]
+  c246cc:	4c 89 e7             	mov    rdi,r12
+  c246cf:	4c 89 ee             	mov    rsi,r13
+  c246d2:	e8 39 00 00 00       	call   0xc24710
+  c246d7:	48 83 c3 10          	add    rbx,0x10
+  c246db:	40 80 c5 1d          	add    bpl,0x1d
+  c246df:	49 39 de             	cmp    r14,rbx
+  c246e2:	75 bc                	jne    0xc246a0
+  c246e4:	0f 28 04 24          	movaps xmm0,XMMWORD PTR [rsp]
+  c246e8:	48 8d 74 24 10       	lea    rsi,[rsp+0x10]
+  c246ed:	48 8b 7c 24 28       	mov    rdi,QWORD PTR [rsp+0x28]
+  c246f2:	e8 19 00 00 00       	call   0xc24710
+  c246f7:	48 83 c4 48          	add    rsp,0x48
+  c246fb:	5b                   	pop    rbx
+  c246fc:	41 5c                	pop    r12
+  c246fe:	41 5d                	pop    r13
+  c24700:	41 5e                	pop    r14
+  c24702:	41 5f                	pop    r15
+  c24704:	5d                   	pop    rbp
+  c24705:	c3                   	ret
+  c24706:	cc                   	int3
+  c24707:	cc                   	int3
+  c24708:	cc                   	int3
+  c24709:	cc                   	int3
+  c2470a:	cc                   	int3
+  c2470b:	cc                   	int3
+  c2470c:	cc                   	int3
+  c2470d:	cc                   	int3
+  c2470e:	cc                   	int3
+  c2470f:	cc                   	int3

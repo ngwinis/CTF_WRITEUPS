@@ -1,0 +1,45 @@
+{
+  "format": "collector-calibration-v4",
+  "probes": [
+    {
+      "candidate": "866fca1a956cb370a",
+      "observations": [
+        50939,
+        60203,
+        7380,
+        1717,
+        219,
+        53298
+      ],
+      "route_lock": "15b1e1e7",
+      "trace_tag": "e97bfd9297fc6e91"
+    },
+    {
+      "candidate": "64a50e35f270f303a",
+      "observations": [
+        54179,
+        2025,
+        54823,
+        20399,
+        55813,
+        27551
+      ],
+      "route_lock": "671bc11e",
+      "trace_tag": "cff0ddc65663d9a3"
+    },
+    {
+      "candidate": "a5481c5ecd92001c3",
+      "observations": [
+        40276,
+        8300,
+        18698,
+        11157,
+        41179,
+        51690
+      ],
+      "route_lock": "8434285f",
+      "trace_tag": "beb43da2849585d7"
+    }
+  ],
+  "snapshot_sha256": "8f24e348600ee484a03942a968b16009d2e8fe9c5c5bc7509159f7bd154b132b"
+}

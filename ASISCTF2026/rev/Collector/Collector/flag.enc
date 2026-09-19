@@ -1,0 +1,6 @@
+{
+  "ciphertext": "6f77c06fa65a8fec0df198bd419e99a2dea82a85dbf8938e157dc106fb2a423bed956b3ddc2c177e70d89e91c3f22c99aaae96f2a5b657ea7231cfe9d76450f88e26",
+  "format": "collector-flag-v4",
+  "nonce": "5123574b6682ff33e27112520befff33",
+  "tag": "9881674cf3a461c79b1da46f575cce5024a0104993853999eef6b25b72ed090b"
+}

@@ -1,0 +1,15 @@
+Artifact: Atarude
+Type: stripped 64-bit little-endian x86-64 PIE ELF, Rust.
+Entry: 0xc24170.
+Key strings: source/main.rs; rustc version 1.91.1 (ed61e7d7e 2025-11-07); LLD 21.1.2.
+.rodata: file offset 0x3140, VA 0x3140, size 0xc1923a.
+.text: file offset 0xc23170, VA 0xc24170, size 0x54606.
+
+Artifact: flag.enc
+Type: custom binary blob.
+Header: a6 3c 00 32.
+Ciphertext length: 0x32 bytes.
+Tag: 6ff7fe35fd3a3c14b422d681ab6c17eb.
+
+Initial classification: reverse engineering plus crypto/encoding.
+Static analysis found an AES-128-ECB compression function at 0xc24570 and a flag parser/decryptor at 0xc255c0.

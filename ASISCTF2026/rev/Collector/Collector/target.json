@@ -1,0 +1,32 @@
+{
+  "format": "collector-target-v4",
+  "note": "offline v4 target with candidate-dependent observations",
+  "observations": [
+    28342,
+    26590,
+    14799,
+    26263,
+    27497,
+    3524
+  ],
+  "route_decoys": [
+    "1c9c6082",
+    "71fca342",
+    "f41adb2b",
+    "2a71a91c",
+    "7893017b",
+    "9e29c69c",
+    "ae6e35d7",
+    "91d098a0",
+    "cbad49c8",
+    "702f22d9",
+    "decc3908",
+    "f67e4b92",
+    "c16eb58c",
+    "5c179656",
+    "419c7654"
+  ],
+  "route_lock": "2812c86f",
+  "seed_tag": "82c0babb",
+  "trace_tag": "f4d95def451aaf17"
+}
